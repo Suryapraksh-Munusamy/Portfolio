@@ -23,7 +23,7 @@ const Projects = () => {
       description: 'A modern portfolio website built with React and Bootstrap',
       image: '/project3.png',
       technologies: ['React', 'Bootstrap', 'SCSS'],
-      link: '../assets/Project3.png'
+      link: 'https://celebrated-griffin-2ddf7e.netlify.app/'
     }
   ];
 
