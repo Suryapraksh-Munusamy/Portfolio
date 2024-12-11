@@ -1,0 +1,38 @@
+// Variables
+$primary-color: #2d3436;
+$secondary-color: #0984e3;
+$text-color: #2d3436;
+$background-color: #f5f6fa;
+
+// Import partials
+@import 'buttons';
+@import 'sections';
+@import 'components';
+
+// Global styles
+body {
+  color: $text-color;
+  background-color: $background-color;
+  font-family: 'Inter', sans-serif;
+}
+
+// Utility classes
+.section {
+  padding: 6rem 0;
+  
+  &-title {
+    font-weight: 700;
+    margin-bottom: 3rem;
+  }
+}
+
+// Animations
+[data-aos] {
+  opacity: 0;
+  transition-duration: 1s;
+  transition-property: opacity, transform;
+  
+  &.aos-animate {
+    opacity: 1;
+  }
+}
